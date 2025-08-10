@@ -1,0 +1,72 @@
+{
+  "name": "checkcookie",
+  "version": "2.0.0",
+  "description": "Professional cookie validation and session analysis tool with advanced detection, comprehensive logging, and strict browser isolation",
+  "main": "session_checker_improved.js",
+  "bin": {
+    "checkcookie": "./cli.js"
+  },
+  "scripts": {
+    "start": "node session_checker_improved.js",
+    "test": "node test_logging.js",
+    "validate": "node session_checker_improved.js --mode 1",
+    "analyze": "node session_checker_improved.js --mode 2",
+    "manual": "node session_checker_improved.js --mode 3",
+    "performance": "node session_checker_improved.js --mode 4",
+    "lint": "echo 'Linting not configured - add eslint if needed'",
+    "audit": "npm audit --audit-level high"
+  },
+  "keywords": [
+    "session-validation",
+    "cookie-checker",
+    "browser-automation",
+    "security-testing",
+    "puppeteer",
+    "authentication",
+    "session-analysis",
+    "cookie-validation",
+    "web-security",
+    "penetration-testing"
+  ],
+  "author": "Enhanced Session Checker Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hekticxox/checkcookie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hekticxox/checkcookie/issues"
+  },
+  "homepage": "https://github.com/hekticxox/checkcookie#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.16.0"
+  },
+  "files": [
+    "session_checker_improved.js",
+    "session_checker.js",
+    "test_logging.js",
+    "config.json",
+    "README.md",
+    "README-SHORT.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CODE_OF_CONDUCT.md",
+    "LOGGING_SYSTEM_OVERVIEW.md"
+  ],
+  "preferGlobal": false,
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}

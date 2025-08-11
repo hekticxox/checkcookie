@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node enhanced_session_checker_v3.js",
     "intelligence": "node enhanced_session_checker_v3.js --mode 1",
-    "auto": "node enhanced_session_checker_v3.js --mode 2", 
+    "auto": "node enhanced_session_checker_v3.js --mode 2",
     "manual": "node enhanced_session_checker_v3.js --mode 3",
     "validate": "node session_validator.js",
     "fresh-validation": "node session_validator.js",
@@ -70,5 +70,8 @@
   "cpu": [
     "x64",
     "arm64"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^9.33.0"
+  }
 }

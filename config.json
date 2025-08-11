@@ -61,10 +61,10 @@
   },
   
   "output": {
-    "validCookiesDir": "valid_cookies",
-    "screenshotsDir": "screenshots",
-    "logFileName": "session_log_enhanced.txt",
-    "jsonFileName": "session_results.json",
-    "csvFileName": "session_results.csv"
+    "validCookiesDir": "/home/hektic/checkcookie/valid_cookies",
+    "screenshotsDir": "/home/hektic/checkcookie/screenshots",
+    "logFileName": "/home/hektic/checkcookie/session_log_enhanced.txt",
+    "jsonFileName": "/home/hektic/checkcookie/session_results.json",
+    "csvFileName": "/home/hektic/checkcookie/session_results.csv"
   }
 }

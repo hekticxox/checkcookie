@@ -1,20 +1,22 @@
 {
   "name": "checkcookie",
-  "version": "2.0.0",
-  "description": "Professional cookie validation and session analysis tool with advanced detection, comprehensive logging, and strict browser isolation",
-  "main": "session_checker_improved.js",
+  "version": "3.0.0-beta.1",
+  "description": "Enhanced Session Checker v3.0 - Advanced T-1 timing attack system with Cookie Intelligence, fresh browser validation, and comprehensive session analysis for authorized security testing",
+  "main": "enhanced_session_checker_v3.js",
   "bin": {
-    "checkcookie": "./cli.js"
+    "checkcookie": "./enhanced_session_checker_v3.js",
+    "session-validator": "./session_validator.js"
   },
   "scripts": {
-    "start": "node session_checker_improved.js",
-    "test": "node test_logging.js",
-    "validate": "node session_checker_improved.js --mode 1",
-    "analyze": "node session_checker_improved.js --mode 2",
-    "manual": "node session_checker_improved.js --mode 3",
-    "performance": "node session_checker_improved.js --mode 4",
+    "start": "node enhanced_session_checker_v3.js",
+    "intelligence": "node enhanced_session_checker_v3.js --mode 1",
+    "auto": "node enhanced_session_checker_v3.js --mode 2", 
+    "manual": "node enhanced_session_checker_v3.js --mode 3",
+    "validate": "node session_validator.js",
+    "fresh-validation": "node session_validator.js",
     "lint": "echo 'Linting not configured - add eslint if needed'",
-    "audit": "npm audit --audit-level high"
+    "audit": "npm audit --audit-level high",
+    "clean": "rm -rf screenshots/* validated_sessions/* || true"
   },
   "keywords": [
     "session-validation",

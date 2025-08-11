@@ -1,0 +1,65 @@
+[
+  {
+    "target": "Google Accounts",
+    "domain": "accounts.google.com",
+    "testUrl": "https://myaccount.google.com/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:06.431Z"
+  },
+  {
+    "target": "Google Accounts",
+    "domain": "accounts.google.com",
+    "testUrl": "https://mail.google.com/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:06.914Z"
+  },
+  {
+    "target": "Google Accounts",
+    "domain": "accounts.google.com",
+    "testUrl": "https://drive.google.com/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:08.536Z"
+  },
+  {
+    "target": "Google Accounts",
+    "domain": "accounts.google.com",
+    "testUrl": "https://photos.google.com/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:09.388Z"
+  },
+  {
+    "target": "PayPal",
+    "domain": "paypal.com",
+    "testUrl": "https://www.paypal.com/myaccount/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:09.914Z"
+  },
+  {
+    "target": "PayPal",
+    "domain": "paypal.com",
+    "testUrl": "https://www.paypal.com/myaccount/summary/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:10.416Z"
+  },
+  {
+    "target": "PayPal",
+    "domain": "paypal.com",
+    "testUrl": "https://www.paypal.com/myaccount/transfer/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:10.824Z"
+  },
+  {
+    "target": "Capital One",
+    "domain": "capitalone.com",
+    "testUrl": "https://myaccounts.capitalone.com/",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:11.190Z"
+  },
+  {
+    "target": "Capital One",
+    "domain": "capitalone.com",
+    "testUrl": "https://myaccounts.capitalone.com/ease/dashboard",
+    "error": "SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.",
+    "timestamp": "2025-08-11T00:13:11.557Z"
+  }
+]

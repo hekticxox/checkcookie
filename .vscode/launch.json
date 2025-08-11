@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Enhanced Session Checker v3 - Intelligence Mode",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/enhanced_session_checker_v3.js",
+            "args": ["--mode", "1"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Enhanced Session Checker v3 - Auto Mode",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/enhanced_session_checker_v3.js",
+            "args": ["--mode", "2"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Enhanced Session Checker v3 - Manual Mode",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/enhanced_session_checker_v3.js",
+            "args": ["--mode", "3"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Session Validator - Fresh Browser Testing",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/session_validator.js",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "Debug Session Validator",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/session_validator.js",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "debug"
+            },
+            "stopOnEntry": false,
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}

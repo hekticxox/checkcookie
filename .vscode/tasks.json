@@ -1,0 +1,96 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Enhanced Session Checker v3 - Intelligence Mode",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"enhanced_session_checker_v3.js",
+				"--mode",
+				"1"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Enhanced Session Checker v3 - Auto Mode",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"enhanced_session_checker_v3.js",
+				"--mode",
+				"2"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Enhanced Session Checker v3 - Manual Mode",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"enhanced_session_checker_v3.js",
+				"--mode",
+				"3"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Session Validator - Fresh Browser Testing",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"session_validator.js"
+			],
+			"group": "test",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Clean Output Directories",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"clean"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		}
+	]
+}

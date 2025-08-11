@@ -48,18 +48,18 @@
     "puppeteer": "^24.16.0"
   },
   "files": [
-    "session_checker_improved.js",
-    "session_checker.js",
-    "test_logging.js",
+    "enhanced_session_checker_v3.js",
+    "session_validator.js",
     "config.json",
+    "prepared_cookies/",
     "README.md",
-    "README-SHORT.md",
     "LICENSE",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
     "SECURITY.md",
     "CODE_OF_CONDUCT.md",
-    "LOGGING_SYSTEM_OVERVIEW.md"
+    "REPOSITORY_SUMMARY.md",
+    "CLEANUP_SUMMARY.md"
   ],
   "preferGlobal": false,
   "os": [

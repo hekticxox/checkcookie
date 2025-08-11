@@ -20,13 +20,13 @@ const { promisify } = require('util');
 
 // Global configuration
 const CONFIG = {
-  workingDir: "/home/hektic/checkcookie",
+  workingDir: __dirname,
   outputDirs: {
-    prepared: "/home/hektic/checkcookie/prepared_cookies",
-    verified: "/home/hektic/checkcookie/verified_sessions",
-    manual: "/home/hektic/checkcookie/manual_verified",
-    analysis: "/home/hektic/checkcookie/analysis",
-    screenshots: "/home/hektic/checkcookie/screenshots"
+    prepared: path.join(__dirname, "prepared_cookies"),
+    verified: path.join(__dirname, "verified_sessions"),
+    manual: path.join(__dirname, "manual_verified"),
+    analysis: path.join(__dirname, "analysis"),
+    screenshots: path.join(__dirname, "screenshots")
   },
   timing: {
     t_minus_1_delay: 2000,  // 2 second preparation phase

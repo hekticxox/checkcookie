@@ -21,9 +21,9 @@ async function validateSessions() {
     console.log('===========================================');
     console.log('');
     
-    const preparedDir = "/home/hektic/checkcookie/prepared_cookies";
-    const screenshotDir = "/home/hektic/checkcookie/screenshots";
-    const validatedDir = "/home/hektic/checkcookie/validated_sessions";
+    const preparedDir = path.join(__dirname, "prepared_cookies");
+    const screenshotDir = path.join(__dirname, "screenshots");
+    const validatedDir = path.join(__dirname, "validated_sessions");
     
     // Ensure directories exist
     fs.mkdirSync(screenshotDir, { recursive: true });

@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/auto_test_cookies.js": true,
+            "**/node_modules": true
+        },
+        "typescript.preferences.includePackageJsonAutoImports": "on",
+        "javascript.validate.enable": true,
+        "typescript.validate.enable": true
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.vscode-json",
+            "ms-vscode.js-debug",
+            "esbenp.prettier-vscode"
+        ]
+    }
+}

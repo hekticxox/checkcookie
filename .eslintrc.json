@@ -1,0 +1,25 @@
+{
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "script"
+    },
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-undef": "error",
+        "no-console": "off",
+        "semi": ["error", "always"],
+        "quotes": ["warn", "double"],
+        "no-trailing-spaces": "warn",
+        "no-multiple-empty-lines": ["warn", { "max": 2 }],
+        "indent": ["warn", 4],
+        "no-unreachable": "error",
+        "no-constant-condition": "warn"
+    }
+}
